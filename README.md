@@ -1,5 +1,6 @@
 # RiftS-C64VR
 The Commodore 64 in VR - Rift/Rift-S version. WMR/SteamVR use ReVive
+
 INSTALLING YOUR OWN ROMS:
 Create a folder on the root of your device named “c64”. Place your “.d64” ROM image files in there. When launching this app, these files will spawn as floppy disks in the caddy on the desk. In order to have a different “.d64” image on the other side of the disk (side B), just add “_b” using the same filename of the Side A file. For example:
 ManiacMansion.d64 <-spawns as side A.
