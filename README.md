@@ -1,6 +1,3 @@
-# RiftS-C64VR
-The Commodore 64 in VR - Rift/Rift-S version. WMR/SteamVR use ReVive
-
 INSTALLING YOUR OWN ROMS:
 Create a folder on the root of your device named “c64”. Place your “.d64” ROM image files in there. When launching this app, these files will spawn as floppy disks in the caddy on the desk. In order to have a different “.d64” image on the other side of the disk (side B), just add “_b” using the same filename of the Side A file. For example:
 ManiacMansion.d64 <-spawns as side A.
@@ -39,6 +36,9 @@ The Defender Of The Crown, Legacy Of The Ancients, etc. and other branded static
 
 USING D81 ROM FILES:
 Press the RESTORE key, then press in the right thumbstick button. Then move the left thumbstick in the upper left direction until a mouse pointer appears. Now navigate to PG2, then to GUI. From there you can change the drive to 1581, which will allow you to read D81 image files. This setting is not saved upon exit. There is no drive sound emulation when using this drive. Game sounds work as usual. There are also other options you can play with in here, none of which are supported however.
+
+KNOWN BUGS:
+The PCVR / Rift-S version there is a bug where if you stop using the left controller, input from the right controller is no longer recognized. So until the bug is fixed just make sure you press a button on the left controller every so often to circumvent this.
 
 CREDITS:
 This is based off of a project handed off to me by Jonas Minnberg, which he is the original author of and can be found here:
